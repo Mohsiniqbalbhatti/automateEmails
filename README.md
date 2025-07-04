@@ -37,17 +37,17 @@ userEmail=your.email@gmail.com
 userPassword=your_app_password_here
 ```
 
-> **Note:** To avoid authentication issues, generate an _App Password_ in your Google Account settings. Watch this video for guidance.
-> [https://www.youtube.com/watch?v=N_J3HCATA1c](https://www.youtube.com/watch?v=N_J3HCATA1c)
+> **Note:** To avoid authentication issues, generate an *App Password* in your Google Account settings. Watch this video for guidance.
+> [https://www.youtube.com/watch?v=N\_J3HCATA1c](https://www.youtube.com/watch?v=N_J3HCATA1c)
 
 ## 5. Customize Your Resume and Email List
 
 1. Replace the sample resume file in the project folder with your own resume (keep the same filename or update references in code).
-2. Open `sendMail.js` (or `main.js` if renamed) and adjust:
+2. Open `sendMail.js` and adjust:
 
-   - The resume filename
-   - The email subject and body text
-   - The list of recipient emails
+   * The resume filename
+   * The email subject and body text
+   * The list of recipient emails
 
 ## 6. Run the Automation
 
@@ -59,9 +59,17 @@ node sendMail.js
 
 ## Tips & Troubleshooting
 
-- Ensure your Node.js version is up to date (v14+ recommended).
-- Double‑check your `.env` values for typos.
-- If emails fail to send, confirm your App Password is correct and that "Less secure app access" is enabled (if still required).
-- Review the console output for error messages.
+* Ensure your Node.js version is up to date (v14+ recommended).
+* Double‑check your `.env` values for typos.
+* If emails fail to send, confirm your App Password is correct and that "Less secure app access" is enabled (if still required).
+* Review the console output for error messages.
+
+---
+
+## Contact
+
+If you face any issues, feel free to contact me:
+
+[Mohsin Iqbal Bhatti on LinkedIn](https://www.linkedin.com/in/mohsin-iqbal-bhatti/)
 
 ---
