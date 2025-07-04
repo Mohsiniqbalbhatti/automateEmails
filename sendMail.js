@@ -4,7 +4,7 @@ import fs from "fs";
 import path from "path";
 import { fileURLToPath } from "url";
 import { configDotenv } from "dotenv";
-import { hrEmails } from "./listOfEmails.js";
+import { hrEmails } from "./listOfEMails.js";
 
 configDotenv();
 
